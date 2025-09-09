@@ -28,3 +28,10 @@ htmlcov/
 .tox/
 .coverage
 .pytest_cache/
+
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class

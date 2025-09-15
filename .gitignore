@@ -1,0 +1,37 @@
+# Entornos virtuales
+env/
+venv/
+.venv/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de Django
+*.sqlite3
+db.sqlite3
+/media/
+staticfiles/
+
+# Configuración sensible
+*.log
+.env
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+
+# Archivos de pruebas/coverage
+htmlcov/
+.tox/
+.coverage
+.pytest_cache/
+
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class

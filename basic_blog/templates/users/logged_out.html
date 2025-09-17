@@ -2,14 +2,14 @@
 
 {% block content %}
 <form class="form-signin text-center">
-    <h1><a href="#" class="title-link">Simple Blog</a></h1>
+    <h1><a href="{% url 'posts:blog' %}" class="title-link">Simple Blog</a></h1>
     <h1 class="h3 mb-3 font-weight-normal">Has cerrado sesión</h1>
     <p class="mb-3">Tu sesión se ha cerrado correctamente.</p>
     
-    <a href="#" class="btn btn-lg btn-primary btn-block">
+    <a href="{% url 'users:login' %}" class="btn btn-lg btn-primary btn-block">
         Iniciar sesión de nuevo
     </a>
-    <a href="#" class="btn btn-lg btn-secondary btn-block">
+    <a href="{% url 'posts:blog' %}" class="btn btn-lg btn-secondary btn-block">
         Ir al inicio
     </a>
     

@@ -28,5 +28,5 @@ urlpatterns = [
         view=TemplateView.as_view(template_name='about.html'),
         name='about'
     ),
-    path('users/', include(('users.urls', 'users'), namespace='users')),
+    path('', include(('users.urls', 'users'), namespace='users')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

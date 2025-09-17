@@ -17,6 +17,7 @@ staticfiles/
 # Configuración sensible
 *.log
 .env
+db.sqlite3
 
 # IDEs y editores
 .vscode/

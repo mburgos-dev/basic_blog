@@ -6,8 +6,6 @@ from django.views.generic import TemplateView
 # View
 from users import views
 
-app_name = "users"
-
 urlpatterns = [
     path(
         route='login',
@@ -20,7 +18,7 @@ urlpatterns = [
         name='register'
     ),
     path(
-        route='logout',
+        route='logout/',
         view=views.LogoutView.as_view(),
         name='logout'
     ),

@@ -30,4 +30,3 @@ class LoginView(auth_views.LoginView):
 class LogoutView(LoginRequiredMixin, auth_views.LogoutView):
     """Logout view."""
     template_name = 'users/logged_out.html'
-    next_page = reverse_lazy('users:logout')

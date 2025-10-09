@@ -24,7 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(('posts.urls', 'posts'), namespace='posts')),
     path(
-        route='sobre-mi/',
+        route='sobre-mi',
         view=TemplateView.as_view(template_name='about.html'),
         name='about'
     ),

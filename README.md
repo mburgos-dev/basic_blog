@@ -1,4 +1,4 @@
-﻿# Simple Blog Django
+# Simple Blog Django
 
 ## Blog creado con Django y python.
 

@@ -4,7 +4,7 @@
 
 Permite crear usuarios, posts, categorías y comentarios.
 
-Para instalar las librerías que necesita el proyecto utilizar el siguiente comando después de crear el entorno virtual, si no sabes como instalarlo te invito a [que revises este tutorial](https://cosasdedevs.com/posts/manejar-el-gestor-de-dependencias-pip-y-el-entorno-virtual-en-python/).
+Para instalar las librerías que necesita el proyecto utilizar el siguiente comando después de crear el entorno virtual.
 
 ```
 pip install -r requirements.txt
